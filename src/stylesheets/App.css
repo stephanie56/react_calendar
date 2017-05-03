@@ -5,17 +5,58 @@ body {
   background-color: #eee;
 }
 
+h1, h2, h3 {
+  margin:0;
+  padding:0;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 0.9em;
+  color:#777;
+}
+
 
 .Calendar {
   border:black 2px solid;
   background-color: #fff;
   padding:20px;
-  margin:10px 0;
+  margin:6px 0;
+  float:left;
+  width:100%;
 }
 
 .Date {
-  width:50px;
-  min-height:80px;
+  width:56px;
   background-color: #fff;
   border:1px solid #777;
+  float:left;
+}
+
+.Month {
+  background-color:#777;
+  color:#fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Day {
+  text-align: center;
+  color:#17a697;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.Event {
+  border:#777 1px solid;
+  border-radius: 4px;
+  float:left;
+  padding:10px;
+  display: block;
+  width:90%;
+  margin-left:14px;
 }
