@@ -18,7 +18,7 @@ class App extends Component {
           id: 2,
           date: "03/24/2017",
           startTime: "10:00",
-          endTime: "15:00",
+          endTime: "23:00",
           title: "Someone Else's Birthday",
           detail: "Heyyyy yo guess who's this birthday? shhhhh... ",
         }
@@ -35,10 +35,10 @@ class App extends Component {
             return(
               <Calendar
                 date={event.date}
-                startTime={event.startTime}
-                endTime={event.endTime}
                 title={event.title}
                 detail={event.detail}
+                startTime={event.startTime}
+                endTime={event.endTime}
                 key={idx}
               />
             )

@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 class DateView extends Component {
 
   render() {
+    const month = this.props.month.slice(0,3).toUpperCase();
     return (
       <div className="Date">
         <div className="Month">
-          { this.props.month }
+          { month }
         </div>
         <div className="Day">
           { this.props.day }
