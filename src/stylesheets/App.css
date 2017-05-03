@@ -12,3 +12,10 @@ body {
   padding:20px;
   margin:10px 0;
 }
+
+.Date {
+  width:50px;
+  min-height:80px;
+  background-color: #fff;
+  border:1px solid #777;
+}

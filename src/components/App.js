@@ -8,13 +8,17 @@ class App extends Component {
       events:[
         {
           id: 1,
-          date: "May 21, 2017",
+          date: "05/21/2017",
+          startTime: "10:00",
+          endTime: "15:00",
           title: "Stephanie's Birthday",
           detail: "Celebrating Steph's big day with gangs in a fun karaoke night",
         },
         {
           id: 2,
-          date: "March 24, 2017",
+          date: "03/24/2017",
+          startTime: "10:00",
+          endTime: "15:00",
           title: "Someone Else's Birthday",
           detail: "Heyyyy yo guess who's this birthday? shhhhh... ",
         }
@@ -31,6 +35,8 @@ class App extends Component {
             return(
               <Calendar
                 date={event.date}
+                startTime={event.startTime}
+                endTime={event.endTime}
                 title={event.title}
                 detail={event.detail}
                 key={idx}

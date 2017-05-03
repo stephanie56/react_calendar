@@ -10,6 +10,9 @@ class EventView extends Component {
       <div className="Event">
         <EventTitle
           title={this.props.title}
+          date={this.props.date}
+          startTime={this.props.startTime}
+          endTime={this.props.endTime}
         />
         <button>{ btn }</button>
         <EventDetail
